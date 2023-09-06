@@ -59,6 +59,37 @@ A documentação Swagger é uma parte essencial deste projeto para documentar e 
 
 <img width="570" alt="Captura de Tela 2023-09-06 às 17 18 51" src="https://github.com/ceerqueira/papelaria/assets/50030996/73b1aafc-b85e-4296-a36c-1ef9309b7e32">
 
+## Funcionamento do Projeto
+
+O projeto cria automantica um banco de dados, com três tabelas:
+
+Primeiro verifique se o acesso ao banco de dados segue os padrões como mostra na imagem:
+
+
+<img width="742" alt="Captura de Tela 2023-09-06 às 17 32 53" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9dd04fb-5166-4e53-94af-0c9c8b2cf1d4">
+
+
+
+### Produtos (/produto)
+
+Nesta seção, é possível gerenciar a lista de produtos disponíveis na papelaria. Esses produtos estão diretamente relacionados aos itens em estoque da papelaria, permitindo a visualização, adição, atualização e exclusão de produtos. 
+
+### Carrinho de Compras (/compras)
+
+Aqui, os clientes podem criar seus carrinhos de compras, onde podem inserir informações pessoais, como nome, telefone e endereço. 
+
+### Itens do Carrinho (/adicionar)
+
+Nesta parte do sistema, os funcionários da papelaria podem adicionar os itens solicitados pelos clientes aos seus respectivos carrinhos de compras. I
+
+
+
+
+
+
+
+
+
 
 
 
