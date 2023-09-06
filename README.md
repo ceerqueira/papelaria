@@ -68,7 +68,8 @@ Primeiro verifique se o acesso ao banco de dados segue os padrões como mostra n
 
 <img width="742" alt="Captura de Tela 2023-09-06 às 17 32 53" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9dd04fb-5166-4e53-94af-0c9c8b2cf1d4">
 
-Versionamento no Flyway, ja inclui a inserção de 10 itens na tabela Produto 
+Versionamento no Flyway, já inclui a inserção de 10 itens na tabela Produto.
+
 <img width="378" alt="Captura de Tela 2023-09-06 às 17 34 49" src="https://github.com/ceerqueira/papelaria/assets/50030996/52b92b70-dcb0-4399-a70c-e043105ca78d">
 
 
@@ -78,11 +79,11 @@ Nesta seção, é possível gerenciar a lista de produtos disponíveis na papela
 
 ### Carrinho de Compras (/compras)
 
-Aqui, os clientes podem criar seus carrinhos de compras, onde podem inserir informações pessoais, como nome, telefone e endereço. 
+Nesta url os clientes podem criar, editar, visualizar e excluir seus carrinhos de compras, podendo inserir informações pessoais como nome, telefone e endereço. 
 
 ### Itens do Carrinho (/adicionar)
 
-Nesta parte do sistema, os funcionários da papelaria podem adicionar os itens solicitados pelos clientes aos seus respectivos carrinhos de compras. I
+Nesta parte do sistema os funcionários da papelaria podem adicionar, remover, editar e excluir os itens solicitados pelos clientes aos seus respectivos carrinhos de compras.
 
 
 
