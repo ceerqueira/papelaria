@@ -61,13 +61,15 @@ A documentação Swagger é uma parte essencial deste projeto para documentar e 
 
 ## Funcionamento do Projeto
 
-O projeto cria automantica um banco de dados, com três tabelas:
+O projeto cria automanticamente um banco de dados, com três tabelas:
 
 Primeiro verifique se o acesso ao banco de dados segue os padrões como mostra na imagem:
 
 
 <img width="742" alt="Captura de Tela 2023-09-06 às 17 32 53" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9dd04fb-5166-4e53-94af-0c9c8b2cf1d4">
 
+Versionamento no Flyway, ja inclui a inserção de 10 itens na tabela Produto 
+<img width="378" alt="Captura de Tela 2023-09-06 às 17 34 49" src="https://github.com/ceerqueira/papelaria/assets/50030996/52b92b70-dcb0-4399-a70c-e043105ca78d">
 
 
 ### Produtos (/produto)
