@@ -20,7 +20,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/ceerqueira/papelaria.git)
+   git clone https://github.com/ceerqueira/papelaria.git
    ```
 
 2. Navegue até o diretório do projeto:
@@ -51,7 +51,14 @@ A documentação Swagger é uma parte essencial deste projeto para documentar e 
 
 1. Após iniciar o aplicativo, abra um navegador da web.
 
-2. Acesse a URL Swagger em `[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui/index.html)`.
+2. Acesse a URL Swagger em `http://localhost:8080/swagger-ui/index.html`.
 
 3. Você verá a interface do Swagger, que lista todos os endpoints disponíveis e permite que você os teste diretamente a partir do navegador.
+
+<img width="580" alt="Captura de Tela 2023-09-06 às 17 18 13" src="https://github.com/ceerqueira/papelaria/assets/50030996/d618165f-66cd-4e57-8374-955e2ade23a6">
+
+<img width="570" alt="Captura de Tela 2023-09-06 às 17 18 51" src="https://github.com/ceerqueira/papelaria/assets/50030996/73b1aafc-b85e-4296-a36c-1ef9309b7e32">
+
+
+
 
