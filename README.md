@@ -76,6 +76,27 @@ Para iniciar a aplicação Spring Boot, siga estas etapas:
    ```
 4. A aplicação estará disponível em `http://localhost:3000`
 
+## Estrutura do projeto frontend
+
+<img width="1415" alt="Captura de Tela 2023-09-10 às 19 08 01" src="https://github.com/ceerqueira/papelaria/assets/50030996/b91934c4-fa42-42b8-beba-6c66243d82bd">
+
+<img width="1409" alt="Captura de Tela 2023-09-10 às 19 08 26" src="https://github.com/ceerqueira/papelaria/assets/50030996/8bfab928-efb8-49cb-9cbf-fc168c0c971e">
+
+<img width="1434" alt="Captura de Tela 2023-09-10 às 19 08 39" src="https://github.com/ceerqueira/papelaria/assets/50030996/492a71b8-41d5-40eb-b70a-da714f18345e">
+
+<img width="446" alt="Captura de Tela 2023-09-10 às 19 08 47" src="https://github.com/ceerqueira/papelaria/assets/50030996/a978aa6d-cabc-4864-a1f6-ec903338aead">
+
+<img width="438" alt="Captura de Tela 2023-09-10 às 19 08 54" src="https://github.com/ceerqueira/papelaria/assets/50030996/07e2f804-63d2-431a-8cd1-4c636ca85568">
+
+<img width="443" alt="Captura de Tela 2023-09-10 às 19 09 01" src="https://github.com/ceerqueira/papelaria/assets/50030996/90a3d838-be30-4b83-9ed8-8353978cd4e0">
+
+
+<img width="436" alt="Captura de Tela 2023-09-10 às 19 09 16" src="https://github.com/ceerqueira/papelaria/assets/50030996/da6b771f-1a8e-463d-a087-0b24d4de0531">
+
+<img width="1430" alt="Captura de Tela 2023-09-10 às 19 09 35" src="https://github.com/ceerqueira/papelaria/assets/50030996/fab4bc9b-0485-42e8-b1f6-accf22dc4500">
+
+
+
 
 
 ## Documentação Swagger
