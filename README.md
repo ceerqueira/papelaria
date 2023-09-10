@@ -93,29 +93,43 @@ Versionamento no Flyway, já inclui a inserção de 10 itens na tabela Produto.
 
 Nesta seção é possivel criar,editar,listar e deletar os Pedidos
 
-<img width="273" alt="Captura de Tela 2023-09-09 às 21 51 01" src="https://github.com/ceerqueira/papelaria/assets/50030996/e469138c-2ad3-4dd2-a463-fa3368aea5d8">
+Tipos de requisições:
 
-POST 
-para realizar uma requisição do tipo Post é necessario informa a quantidade e o idProduto para cadastra, se não ele vai lança uma expection.
+**POST** `http://localhost:8080/pedido`
 
-
-GET
+para realizar uma requisição do tipo Post é necessario usar o formato JSON e informa a quantidade e o idProduto para cadastra, se não ele vai lança uma expection.
 
 
-<img width="260" alt="Captura de Tela 2023-09-09 às 21 54 00" src="https://github.com/ceerqueira/papelaria/assets/50030996/583e5bce-a8de-46f4-957d-cfe2d35f6414">
-
-Essa requisição do tipo Get lista todos os pedidos feitos. 
-
-<img width="290" alt="Captura de Tela 2023-09-09 às 21 55 14" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9a66404-aff7-485a-b07e-1fb88879012d">
-
-Essa requisição faz uma busca pelo codigo de acesso, e retorna a lista de produtos e quantidade selecionados.
-
-<img width="321" alt="Captura de Tela 2023-09-09 às 21 58 06" src="https://github.com/ceerqueira/papelaria/assets/50030996/360f780d-8869-4b94-b697-4bbfddfc0a41">
-
-Para realizar uma altereção é necessario informa idPedido, idProduto (Se deseja alterar o produto, se não, ele não vai fazer a alteração) e quantidade nova.
+   ```bash
+   {
+     "idProduto":2,
+     "quantidade":1
+   }
+   ```
 
 
-<img width="303" alt="Captura de Tela 2023-09-09 às 21 59 54" src="https://github.com/ceerqueira/papelaria/assets/50030996/8475e356-8daa-48f6-867c-c63186ba4386">
+**GET** `http://localhost:8080/pedido`
+
+Vai listar em formato JSON 
+
+**GET** `http://localhost:8080/pedido/(codigo de acesso)`
+
+Essa requisição faz uma busca pelo codigo de acesso, e retorna a lista de produtos e quantidade selecionados no pedido.
+
+**PUT** `http://localhost:8080/pedido`
+
+Para realizar uma altereção é necessario informa quantidade nova, se deseja alterar o produto,é necessario informa o novo idProduto se não, ele não vai fazer a alteração.
+
+
+   ```bash
+   {
+   	"idPedido":1,
+   	"idProduto":5,
+      "quantidade": 5
+   }
+   ```
+
+**DELETE** `http://localhost:8080/pedido/(idPedido)`
 
 Para Deletar basta informa no fim da URL o ID do pedido.
 
@@ -123,23 +137,39 @@ Para Deletar basta informa no fim da URL o ID do pedido.
 ### Carrinho de Compras (/endereco)
 
 Nesta url os funcionarios podem criar e visualizar o endereco do cliente, podendo inserir informações pessoais como nome, telefone e endereço. 
-<img width="272" alt="Captura de Tela 2023-09-09 às 22 01 18" src="https://github.com/ceerqueira/papelaria/assets/50030996/c98befb4-b071-4f61-8076-cb09f2e0a00b">
 
-bastar preencher cada um dos campos 
+**POST** `http://localhost:8080/endereco`
 
-<img width="280" alt="Captura de Tela 2023-09-09 às 22 02 58" src="https://github.com/ceerqueira/papelaria/assets/50030996/8b9e8b8e-7266-41b2-a4bc-e8aa2a165f14">
+Para realizar uma requisição é necessario seguir os seguintes padrões em formato JSON
 
-Por fim retornará um codigo de acesso que deve ser guardado para futuras consultas.
+   ```bash
+   {
+   	"nome":"Victor",
+   	"endereco":"Rua 123",
+   	"telefone":"123123123",
+   	"numeroPedido":2
+   }
+   ```
+Essa requisição retorna dessa forma, lembre-se de guardar o código de acesso para realizar futuras consultas 
 
-<img width="316" alt="Captura de Tela 2023-09-09 às 22 04 05" src="https://github.com/ceerqueira/papelaria/assets/50030996/e4a07ee1-836f-4b09-8889-b40a595fa65d">
+```
+   Pedido cadastrado com sucesso
+   Seu codigo de acesso é 3458
+```
+
+
+**GET** `http://localhost:8080/endereco/(codigo de acesso)`
+
+
 com codigo de acesso é possivel ter acesso aos dados do cliente e a lista de produtos selecionados
 
 
 ### Itens do Carrinho (/produtos)
 
-retorna todos os 
 
-<img width="292" alt="Captura de Tela 2023-09-09 às 22 03 52" src="https://github.com/ceerqueira/papelaria/assets/50030996/c155f590-0f14-4468-a9e0-0e2dfeac6704">
+**GET** `http://localhost:8080/produtos`
+
+Retornar todos os produtos em formato JSON que estão cadastrado do banco de dados
 
 
 
