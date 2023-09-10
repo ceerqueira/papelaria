@@ -1,6 +1,0 @@
-CREATE TABLE carrinho_compras (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    endereco VARCHAR(200) NOT NULL,
-    nome VARCHAR(80) NOT NULL,
-    telefone VARCHAR(30) NOT NULL
-);
