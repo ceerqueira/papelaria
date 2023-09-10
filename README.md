@@ -1,6 +1,6 @@
-# Aplicação Fullstack com React e Spring Boot
+# Aplicação Fullstack com React e Spring Boot - Java
 
-Um projeto para fornecer aos funcionarios de uma papelaria um controle do estoque, a possibilidade de fazer de um pedido e buscar os pedidos feitos pelo codigo do pedido.
+Um projeto para fornecer aos funcionarios de uma papelaria o controle do estoque, fazer pedidos e buscar os pedidos feitos pelo codigo de acesso ao pedido.
 
 Este é um guia de documentação para o projeto usando React e Java.
 
@@ -62,7 +62,6 @@ Para iniciar a aplicação Spring Boot, siga estas etapas:
    ```bash
    cd FRONTEND
    ```
-
 
 2. Instale as depedências do projeto
 
