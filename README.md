@@ -4,10 +4,18 @@ Um projeto para fornecer aos funcionarios de uma papelaria um controle do estoqu
 
 Este é um guia de documentação para o projeto usando React e Java.
 
+## Funcionamento do Projeto
 
-## Introdução
+O projeto cria automanticamente um databases, com três tabelas:
 
-Este projeto é uma aplicação Java baseada em Spring Boot que demonstra como criar uma API RESTful simples. O objetivo é fornecer um exemplo claro de como configurar o Spring Boot e integrar a documentação Swagger para facilitar o desenvolvimento e a documentação da API.
+Primeiro verifique se o acesso ao banco de dados segue os padrões como mostra na imagem:
+
+<img width="742" alt="Captura de Tela 2023-09-06 às 17 32 53" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9dd04fb-5166-4e53-94af-0c9c8b2cf1d4">
+
+Versionamento no Flyway, já inclui a inserção de 12 itens na tabela Produto.
+
+<img width="323" alt="Captura de Tela 2023-09-10 às 11 38 41" src="https://github.com/ceerqueira/papelaria/assets/50030996/ff801c7b-d595-4674-90b4-f129344cd95d">
+
 
 
 ## Configuração do Ambiente
@@ -74,19 +82,6 @@ Para acessar a documentação Swagger, siga estas etapas:
 3. Você verá a interface do Swagger, que lista todos os endpoints disponíveis e permite que você os teste diretamente a partir do navegador.
 
 <img width="557" alt="Captura de Tela 2023-09-09 às 21 48 50" src="https://github.com/ceerqueira/papelaria/assets/50030996/f6f6c62b-b9f4-4eec-a491-67af89f8f5c3">
-
-## Funcionamento do Projeto
-
-O projeto cria automanticamente um banco de dados, com três tabelas:
-
-Primeiro verifique se o acesso ao banco de dados segue os padrões como mostra na imagem:
-
-
-<img width="742" alt="Captura de Tela 2023-09-06 às 17 32 53" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9dd04fb-5166-4e53-94af-0c9c8b2cf1d4">
-
-Versionamento no Flyway, já inclui a inserção de 10 itens na tabela Produto.
-
-<img width="378" alt="Captura de Tela 2023-09-06 às 17 34 49" src="https://github.com/ceerqueira/papelaria/assets/50030996/52b92b70-dcb0-4399-a70c-e043105ca78d">
 
 
 ### Pedidos (/pedido)
