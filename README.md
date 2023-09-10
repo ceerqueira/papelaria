@@ -1,6 +1,6 @@
 # Aplicação Fullstack com React e Spring Boot - Java
 
-Um projeto para fornecer aos funcionarios de uma papelaria o controle do estoque, fazer pedidos e buscar os pedidos feitos pelo codigo de acesso ao pedido.
+Um projeto para fornecer aos funcionários de uma papelaria o controle do estoque, fazer pedidos e buscar os pedidos feitos pelo código de acesso ao pedido.
 
 Este é um guia de documentação para o projeto usando React e Java.
 
@@ -8,7 +8,7 @@ Este é um guia de documentação para o projeto usando React e Java.
 
 O projeto cria automanticamente um databases, com três tabelas:
 
-no application.properties esta da seguinte maneira, verifique se o acesso ao banco de dados MySQL esta com o username e password padrão:
+no application.properties está como consta abaixo. Verifique se o acesso ao banco de dados MySQL está com o username e password padrão:
    ```bash
       spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
       spring.datasource.url=jdbc:mysql://localhost/papelaria?createDatabaseIfNotExist=true
@@ -18,7 +18,7 @@ no application.properties esta da seguinte maneira, verifique se o acesso ao ban
    ```
 
 
-Versionamento no Flyway, já inclui a inserção de 12 itens na tabela Produto.
+Versionamento no Flyway já inclui a inserção de 12 itens na tabela Produto.
 
 <img width="323" alt="Captura de Tela 2023-09-10 às 11 38 41" src="https://github.com/ceerqueira/papelaria/assets/50030996/10a18235-25af-4857-adda-405a9bba2032">
 
@@ -57,18 +57,18 @@ Para iniciar a aplicação Spring Boot, siga estas etapas:
 
 Para iniciar a aplicação Spring Boot, siga estas etapas:
 
-1. Navegue até o diretório raiz do projeto.
+1. Navegue até o diretório raiz do projeto:
 
    ```bash
    cd FRONTEND
    ```
 
-2. Instale as depedências do projeto
+2. Instale as depedências do projeto:
 
    ```bash
    npm install
    ```
-3. Execute o servidor desenvolvido em React
+3. Execute o servidor desenvolvido em React:
 
    ```bash
    npm start
@@ -118,13 +118,13 @@ Para acessar a documentação Swagger, siga estas etapas:
 
 ### Pedidos (/pedido)
 
-Nesta seção é possivel criar,editar,listar e deletar os Pedidos
+Nesta seção é possivel criar, editar, listar e deletar os pedidos.
 
 Tipos de requisições:
 
 **POST** `http://localhost:8080/pedido`
 
-para realizar uma requisição do tipo Post é necessario usar o formato JSON e informa a quantidade e o idProduto para cadastra, se não ele vai lança uma expection.
+Para realizar uma requisição do tipo Post é necessário usar o formato JSON e informar a quantidade e o idProduto para cadastrar, do contrário ele vai lançar uma exception.
 
 
    ```bash
@@ -137,15 +137,15 @@ para realizar uma requisição do tipo Post é necessario usar o formato JSON e 
 
 **GET** `http://localhost:8080/pedido`
 
-Vai listar em formato JSON 
+Vai listar em formato JSON todos os pedidos cadastrados.
 
 **GET** `http://localhost:8080/pedido/(codigo de acesso)`
 
-Essa requisição faz uma busca pelo codigo de acesso, e retorna a lista de produtos e quantidade selecionados no pedido.
+Essa requisição faz uma busca pelo código de acesso, e retorna a lista de produtos e quantidade selecionados no pedido.
 
 **PUT** `http://localhost:8080/pedido`
 
-Para realizar uma altereção é necessario informa quantidade nova, se deseja alterar o produto,é necessario informa o novo idProduto se não, ele não vai fazer a alteração.
+Para realizar uma altereção é necessário informar o idPedido e a quantidade nova. Se deseja alterar o produto, é necessário informar o novo idProduto, do contrário ele não vai fazer a alteração.
 
 
    ```bash
@@ -158,16 +158,16 @@ Para realizar uma altereção é necessario informa quantidade nova, se deseja a
 
 **DELETE** `http://localhost:8080/pedido/(idPedido)`
 
-Para Deletar basta informa no fim da URL o ID do pedido.
+Para Deletar basta informar no fim da URL o idPedido.
 
 
 ### Carrinho de Compras (/endereco)
 
-Nesta url os funcionarios podem criar e visualizar o endereco do cliente, podendo inserir informações pessoais como nome, telefone e endereço. 
+Nesta url os funcionários podem criar e visualizar o endereço do cliente, podendo inserir informações pessoais como nome, telefone e endereço. 
 
 **POST** `http://localhost:8080/endereco`
 
-Para realizar uma requisição é necessario seguir os seguintes padrões em formato JSON
+Para realizar uma requisição é necessário seguir os seguintes padrões em formato JSON:
 
    ```bash
    {
@@ -177,7 +177,7 @@ Para realizar uma requisição é necessario seguir os seguintes padrões em for
    	"numeroPedido":2
    }
    ```
-Essa requisição retorna dessa forma, lembre-se de guardar o código de acesso para realizar futuras consultas 
+Esta requisição retorna a mensagem abaixo. Lembre-se de guardar o código de acesso para realizar futuras consultas. 
 
 ```
    Pedido cadastrado com sucesso
@@ -188,7 +188,7 @@ Essa requisição retorna dessa forma, lembre-se de guardar o código de acesso 
 **GET** `http://localhost:8080/endereco/(codigo de acesso)`
 
 
-com codigo de acesso é possivel ter acesso aos dados do cliente e a lista de produtos selecionados
+Com o código de acesso é possível ter acesso aos dados do cliente e a lista de produtos selecionados.
 
 
 ### Itens do Carrinho (/produtos)
@@ -196,7 +196,7 @@ com codigo de acesso é possivel ter acesso aos dados do cliente e a lista de pr
 
 **GET** `http://localhost:8080/produtos`
 
-Retornar todos os produtos em formato JSON que estão cadastrado do banco de dados
+Esta requisição retorna todos os produtos em formato JSON que estão cadastrados no banco de dados.
 
 
 
