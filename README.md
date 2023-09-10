@@ -68,12 +68,17 @@ Para iniciar a aplicação Spring Boot, siga estas etapas:
    ```bash
    npm install
    ```
+
+
 3. Execute o servidor desenvolvido em React:
 
    ```bash
    npm start
    ```
+
+
 4. A aplicação estará disponível em `http://localhost:3000`
+
 
 ## Estrutura do projeto frontend
 
@@ -87,19 +92,22 @@ Para iniciar a aplicação Spring Boot, siga estas etapas:
 <img width="1434" alt="Captura de Tela 2023-09-10 às 19 08 39" src="https://github.com/ceerqueira/papelaria/assets/50030996/492a71b8-41d5-40eb-b70a-da714f18345e">
 
 
-<img width="446" alt="Captura de Tela 2023-09-10 às 19 08 47" src="https://github.com/ceerqueira/papelaria/assets/50030996/6b4d422d-4892-4d2a-a79c-ee29d6d15893">
+<img width="1435" alt="Captura de Tela 2023-09-10 às 19 42 24" src="https://github.com/ceerqueira/papelaria/assets/50030996/e70f2de6-70eb-4af8-b72e-682984dc4805">
 
 
-<img width="439" alt="Captura de Tela 2023-09-10 às 19 21 57" src="https://github.com/ceerqueira/papelaria/assets/50030996/852c14d0-66f9-48a4-b8d7-1f91128da740">
+<img width="436" alt="Captura de Tela 2023-09-10 às 19 42 33" src="https://github.com/ceerqueira/papelaria/assets/50030996/53130612-4b42-4dca-ba6e-69843d15e33d">
 
 
-<img width="439" alt="Captura de Tela 2023-09-10 às 19 22 05" src="https://github.com/ceerqueira/papelaria/assets/50030996/bb307832-63e9-40ac-a367-2dd5dd27c9d8">
+<img width="438" alt="Captura de Tela 2023-09-10 às 19 42 46" src="https://github.com/ceerqueira/papelaria/assets/50030996/df0139d5-998d-4b75-8257-07d6c9d838e7">
 
 
-<img width="441" alt="Captura de Tela 2023-09-10 às 19 22 24" src="https://github.com/ceerqueira/papelaria/assets/50030996/4847ce8b-85ad-4d49-9a0d-7e09b5aa4734">
+<img width="438" alt="Captura de Tela 2023-09-10 às 19 43 05" src="https://github.com/ceerqueira/papelaria/assets/50030996/8f30d9d0-40ed-4923-add9-ad96c5ec4727">
 
 
-<img width="1430" alt="Captura de Tela 2023-09-10 às 19 09 35" src="https://github.com/ceerqueira/papelaria/assets/50030996/fab4bc9b-0485-42e8-b1f6-accf22dc4500">
+<img width="441" alt="Captura de Tela 2023-09-10 às 19 43 17" src="https://github.com/ceerqueira/papelaria/assets/50030996/33d7a3d4-fa07-4842-bbea-201e4488e566">
+
+
+<img width="1434" alt="Captura de Tela 2023-09-10 às 19 43 37" src="https://github.com/ceerqueira/papelaria/assets/50030996/b46b0ea9-695b-4849-9b1c-747b6ff966f0">
 
 
 
@@ -115,12 +123,11 @@ Para acessar a documentação Swagger, siga estas etapas:
 
 <img width="557" alt="Captura de Tela 2023-09-09 às 21 48 50" src="https://github.com/ceerqueira/papelaria/assets/50030996/f6f6c62b-b9f4-4eec-a491-67af89f8f5c3">
 
+## Tipos de requisições:
 
 ### Pedidos (/pedido)
 
 Nesta seção é possivel criar, editar, listar e deletar os pedidos.
-
-Tipos de requisições:
 
 **POST** `http://localhost:8080/pedido`
 
