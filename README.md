@@ -8,8 +8,9 @@ Este é um guia de documentação para o projeto usando React e Java.
 
 O projeto cria automanticamente um databases, com três tabelas:
 
+no application.properties esta da seguinte maneira, verifique se o acesso ao banco de dados MySQL esta com o username e password padrão:
    ```bash
-         spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+      spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
       spring.datasource.url=jdbc:mysql://localhost/papelaria?createDatabaseIfNotExist=true
       spring.datasource.username=root
       spring.datasource.password=root
