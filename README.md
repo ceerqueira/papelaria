@@ -8,13 +8,19 @@ Este é um guia de documentação para o projeto usando React e Java.
 
 O projeto cria automanticamente um databases, com três tabelas:
 
-Primeiro verifique se o acesso ao banco de dados segue os padrões como mostra na imagem:
+   ```bash
+         spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+      spring.datasource.url=jdbc:mysql://localhost/papelaria?createDatabaseIfNotExist=true
+      spring.datasource.username=root
+      spring.datasource.password=root
+      spring.jpa.show-sql=true
+   ```
 
-<img width="742" alt="Captura de Tela 2023-09-06 às 17 32 53" src="https://github.com/ceerqueira/papelaria/assets/50030996/d9dd04fb-5166-4e53-94af-0c9c8b2cf1d4">
 
 Versionamento no Flyway, já inclui a inserção de 12 itens na tabela Produto.
 
-<img width="323" alt="Captura de Tela 2023-09-10 às 11 38 41" src="https://github.com/ceerqueira/papelaria/assets/50030996/ff801c7b-d595-4674-90b4-f129344cd95d">
+<img width="323" alt="Captura de Tela 2023-09-10 às 11 38 41" src="https://github.com/ceerqueira/papelaria/assets/50030996/10a18235-25af-4857-adda-405a9bba2032">
+
 
 
 
