@@ -6,7 +6,7 @@ Este é um guia de documentação para o projeto usando React e Java.
 
 ## Pré-requisitos
 
-- **Git:** [Instalar Git](https://git-scm.com/downloads)
+- **Git:** [Download Git](https://git-scm.com/downloads)
 
 
    -Para verificar se o Git está instalado: 
@@ -17,7 +17,7 @@ Este é um guia de documentação para o projeto usando React e Java.
 
 - **Java Development Kit (JDK):** Versão compatível do JDK instalada. Recomendado Java 8 ou superior. [Download do JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 
-   -Para verificar se o JDK está instalado e qual versão está em uso: 
+   -Para verificar se o JDK está instalado: 
 
      ```bash
      java -version
@@ -34,7 +34,7 @@ Este é um guia de documentação para o projeto usando React e Java.
 - **Node.js e npm:** [Download do Node.js](https://nodejs.org/)
 
 
-    -Para verificar se o Node.js e o npm estão instalados, você pode executar os seguintes comandos:: 
+    -Para verificar se o Node.js e o npm estão instalados: 
 
      ```bash
       node -v
@@ -47,7 +47,7 @@ Este é um guia de documentação para o projeto usando React e Java.
 
 - **MySQL:**  [Download do MySQL](https://dev.mysql.com/downloads/)
 
-    -Para verificar se o MySQL esta instalado basta rodar o seguinte comando: 
+    -Para verificar se o MySQL esta instalado: 
 
      ```bash
       mysql --version
