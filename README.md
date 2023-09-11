@@ -4,9 +4,58 @@ Um projeto para fornecer aos funcionários de uma papelaria o controle do estoqu
 
 Este é um guia de documentação para o projeto usando React e Java.
 
-## Funcionamento do Projeto
+## Pré-requisitos
 
-O projeto cria automanticamente um databases, com três tabelas:
+- **Git:** [Instalar Git](https://git-scm.com/downloads)
+
+
+   -Para verificar se o Git está instalado: 
+
+     ```bash
+     git --version
+    ```
+
+- **Java Development Kit (JDK):** Versão compatível do JDK instalada. Recomendado Java 8 ou superior. [Download do JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+
+   -Para verificar se o JDK está instalado e qual versão está em uso: 
+
+     ```bash
+     java -version
+    ```
+
+- **Maven:** [Download do Maven](https://maven.apache.org/download.cgi)
+
+    -Para verificar se o Maven está instalado: 
+
+     ```bash
+     mvn -version
+    ```
+
+- **Node.js e npm:** [Download do Node.js](https://nodejs.org/)
+
+
+    -Para verificar se o Node.js e o npm estão instalados, você pode executar os seguintes comandos:: 
+
+     ```bash
+      node -v
+    ```
+
+     ```bash
+      npm -v
+    ```
+
+
+- **MySQL:**  [Download do MySQL](https://dev.mysql.com/downloads/)
+
+    -Para verificar se o MySQL esta instalado basta rodar o seguinte comando: 
+
+     ```bash
+      mysql --version
+    ```
+
+
+
+## Funcionamento do Projeto
 
 no application.properties está como consta abaixo. Verifique se o acesso ao banco de dados MySQL está com o username e password padrão:
    ```bash
@@ -18,10 +67,12 @@ no application.properties está como consta abaixo. Verifique se o acesso ao ban
    ```
 
 
-Versionamento no Flyway já inclui a inserção de 12 itens na tabela Produto.
+Utilizando o sistema de versionamento do Flyway, ele cria um databases, com três tabelas e insere 12 itens na tabela Produto.
 
 <img width="323" alt="Captura de Tela 2023-09-10 às 11 38 41" src="https://github.com/ceerqueira/papelaria/assets/50030996/10a18235-25af-4857-adda-405a9bba2032">
 
+
+- **Portas:** Certifique-se de que as portas padrão especificadas (8080 para o backend e 3000 para o frontend) não estejam sendo usadas por outros serviços em sua máquina.
 
 
 
