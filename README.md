@@ -192,7 +192,7 @@ Para realizar uma altereção é necessário informar o idPedido e a quantidade 
    {
       "idPedido":1,
       "idProduto":5,
-         "quantidade":5
+      "quantidade":5
    }
    ```
 
