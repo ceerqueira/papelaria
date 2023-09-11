@@ -133,32 +133,14 @@ Para iniciar a aplicação Spring Boot, siga estas etapas:
 
 ## Estrutura do projeto frontend
 
+Adicionar itens na lista pedidos e finalizar pedido.
 
-<img width="1415" alt="Captura de Tela 2023-09-10 às 19 08 01" src="https://github.com/ceerqueira/papelaria/assets/50030996/b91934c4-fa42-42b8-beba-6c66243d82bd">
+![Design sem nome-2](https://github.com/ceerqueira/papelaria/assets/50030996/0208f32a-5f29-4c19-9ab9-8fb81101dafd)
 
+Buscar pedido.
 
-<img width="1409" alt="Captura de Tela 2023-09-10 às 19 08 26" src="https://github.com/ceerqueira/papelaria/assets/50030996/8bfab928-efb8-49cb-9cbf-fc168c0c971e">
+![Design sem nome](https://github.com/ceerqueira/papelaria/assets/50030996/35eae5f2-6fcf-44af-95fd-857739161168)
 
-
-<img width="1434" alt="Captura de Tela 2023-09-10 às 19 08 39" src="https://github.com/ceerqueira/papelaria/assets/50030996/492a71b8-41d5-40eb-b70a-da714f18345e">
-
-
-<img width="1435" alt="Captura de Tela 2023-09-10 às 19 42 24" src="https://github.com/ceerqueira/papelaria/assets/50030996/e70f2de6-70eb-4af8-b72e-682984dc4805">
-
-
-<img width="436" alt="Captura de Tela 2023-09-10 às 19 42 33" src="https://github.com/ceerqueira/papelaria/assets/50030996/53130612-4b42-4dca-ba6e-69843d15e33d">
-
-
-<img width="438" alt="Captura de Tela 2023-09-10 às 19 42 46" src="https://github.com/ceerqueira/papelaria/assets/50030996/df0139d5-998d-4b75-8257-07d6c9d838e7">
-
-
-<img width="438" alt="Captura de Tela 2023-09-10 às 19 43 05" src="https://github.com/ceerqueira/papelaria/assets/50030996/8f30d9d0-40ed-4923-add9-ad96c5ec4727">
-
-
-<img width="441" alt="Captura de Tela 2023-09-10 às 19 43 17" src="https://github.com/ceerqueira/papelaria/assets/50030996/33d7a3d4-fa07-4842-bbea-201e4488e566">
-
-
-<img width="1434" alt="Captura de Tela 2023-09-10 às 19 43 37" src="https://github.com/ceerqueira/papelaria/assets/50030996/b46b0ea9-695b-4849-9b1c-747b6ff966f0">
 
 
 
