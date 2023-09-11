@@ -190,9 +190,9 @@ Para realizar uma altereção é necessário informar o idPedido e a quantidade 
 
    ```bash
    {
-   	"idPedido":1,
-   	"idProduto":5,
-      "quantidade": 5
+      "idPedido":1,
+      "idProduto":5,
+      "quantidade":5
    }
    ```
 
